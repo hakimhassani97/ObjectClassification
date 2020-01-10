@@ -1,1 +1,4 @@
 fullTracks
+example.py
+data/
+__pycache__/
