@@ -2,3 +2,5 @@ fullTracks
 example.py
 data/
 __pycache__/
+settings.json
+means
