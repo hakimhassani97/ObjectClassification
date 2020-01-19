@@ -42,6 +42,6 @@ for file in files:
     img=cv2.resize(img,newSize,interpolation = cv2.INTER_AREA)
     cv2.rectangle(img,(0,0),(70,15),(0,255,0),-1)
     cv2.putText(img,label,(10,10),cv2.FONT_HERSHEY_SIMPLEX,0.5,(0,0,0),1)
-    cv2.imshow("HOG Image", img)
+    cv2.imshow("Press any key for next image", img)
     cv2.waitKey()
     # print(classification_report('bike', prediction,target_names=le.classes_))
