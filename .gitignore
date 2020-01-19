@@ -1,7 +1,6 @@
 fullTracks
 example.py
 data/
-results/
 __pycache__/
 settings.json
 means
